@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E94AC4981B571F870024F2F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E94AC4971B571F870024F2F9 /* main.m */; };
+		E94AC49B1B571F870024F2F9 /* BMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E94AC49A1B571F870024F2F9 /* BMAppDelegate.m */; };
+		E94AC4A11B571F870024F2F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E94AC49F1B571F870024F2F9 /* Main.storyboard */; };
+		E94AC4A31B571F870024F2F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E94AC4A21B571F870024F2F9 /* Images.xcassets */; };
+		E94AC4A61B571F870024F2F9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E94AC4A41B571F870024F2F9 /* LaunchScreen.xib */; };
+		E94AC4B21B571F870024F2F9 /* BMPushNotificationViewExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E94AC4B11B571F870024F2F9 /* BMPushNotificationViewExampleTests.m */; };
+		E94AC4BF1B5720180024F2F9 /* BMPushNotificationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E94AC4BE1B5720180024F2F9 /* BMPushNotificationView.xib */; };
+		E94AC4C21B57202D0024F2F9 /* BMPushNotificationView.m in Sources */ = {isa = PBXBuildFile; fileRef = E94AC4C11B57202D0024F2F9 /* BMPushNotificationView.m */; };
+		E94AC4C51B5728630024F2F9 /* BMRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E94AC4C41B5728630024F2F9 /* BMRootViewController.m */; };
+		E94AC4C81B572A980024F2F9 /* UIView+Instantiation.m in Sources */ = {isa = PBXBuildFile; fileRef = E94AC4C71B572A980024F2F9 /* UIView+Instantiation.m */; };
+		E9885B991B7C14290030F0FC /* sample_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E9885B981B7C14290030F0FC /* sample_icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E94AC4AC1B571F870024F2F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E94AC48A1B571F870024F2F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E94AC4911B571F870024F2F9;
+			remoteInfo = BMPushNotificationViewExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E94AC4921B571F870024F2F9 /* BMPushNotificationViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMPushNotificationViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E94AC4961B571F870024F2F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E94AC4971B571F870024F2F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E94AC4991B571F870024F2F9 /* BMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMAppDelegate.h; sourceTree = "<group>"; };
+		E94AC49A1B571F870024F2F9 /* BMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMAppDelegate.m; sourceTree = "<group>"; };
+		E94AC4A01B571F870024F2F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E94AC4A21B571F870024F2F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E94AC4A51B571F870024F2F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E94AC4AB1B571F870024F2F9 /* BMPushNotificationViewExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMPushNotificationViewExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E94AC4B01B571F870024F2F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E94AC4B11B571F870024F2F9 /* BMPushNotificationViewExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMPushNotificationViewExampleTests.m; sourceTree = "<group>"; };
+		E94AC4BE1B5720180024F2F9 /* BMPushNotificationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BMPushNotificationView.xib; sourceTree = "<group>"; };
+		E94AC4C01B57202D0024F2F9 /* BMPushNotificationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMPushNotificationView.h; sourceTree = "<group>"; };
+		E94AC4C11B57202D0024F2F9 /* BMPushNotificationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMPushNotificationView.m; sourceTree = "<group>"; };
+		E94AC4C31B5728630024F2F9 /* BMRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMRootViewController.h; sourceTree = "<group>"; };
+		E94AC4C41B5728630024F2F9 /* BMRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMRootViewController.m; sourceTree = "<group>"; };
+		E94AC4C61B572A980024F2F9 /* UIView+Instantiation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Instantiation.h"; sourceTree = "<group>"; };
+		E94AC4C71B572A980024F2F9 /* UIView+Instantiation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Instantiation.m"; sourceTree = "<group>"; };
+		E9885B981B7C14290030F0FC /* sample_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample_icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E94AC48F1B571F870024F2F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E94AC4A81B571F870024F2F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E94AC4891B571F870024F2F9 = {
+			isa = PBXGroup;
+			children = (
+				E94AC4941B571F870024F2F9 /* BMPushNotificationViewExample */,
+				E94AC4AE1B571F870024F2F9 /* BMPushNotificationViewExampleTests */,
+				E94AC4931B571F870024F2F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E94AC4931B571F870024F2F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E94AC4921B571F870024F2F9 /* BMPushNotificationViewExample.app */,
+				E94AC4AB1B571F870024F2F9 /* BMPushNotificationViewExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E94AC4941B571F870024F2F9 /* BMPushNotificationViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				E9885B981B7C14290030F0FC /* sample_icon.png */,
+				E94AC4C91B572BB70024F2F9 /* Categories */,
+				E94AC4BD1B5720030024F2F9 /* BMPushNotificationView */,
+				E94AC4BB1B571FE60024F2F9 /* App Delegate */,
+				E94AC4A21B571F870024F2F9 /* Images.xcassets */,
+				E94AC4A41B571F870024F2F9 /* LaunchScreen.xib */,
+				E94AC49F1B571F870024F2F9 /* Main.storyboard */,
+				E94AC4951B571F870024F2F9 /* Supporting Files */,
+				E94AC4BC1B571FEF0024F2F9 /* View Controllers */,
+			);
+			path = BMPushNotificationViewExample;
+			sourceTree = "<group>";
+		};
+		E94AC4951B571F870024F2F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E94AC4961B571F870024F2F9 /* Info.plist */,
+				E94AC4971B571F870024F2F9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E94AC4AE1B571F870024F2F9 /* BMPushNotificationViewExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				E94AC4B11B571F870024F2F9 /* BMPushNotificationViewExampleTests.m */,
+				E94AC4AF1B571F870024F2F9 /* Supporting Files */,
+			);
+			path = BMPushNotificationViewExampleTests;
+			sourceTree = "<group>";
+		};
+		E94AC4AF1B571F870024F2F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E94AC4B01B571F870024F2F9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E94AC4BB1B571FE60024F2F9 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				E94AC4991B571F870024F2F9 /* BMAppDelegate.h */,
+				E94AC49A1B571F870024F2F9 /* BMAppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		E94AC4BC1B571FEF0024F2F9 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E94AC4C31B5728630024F2F9 /* BMRootViewController.h */,
+				E94AC4C41B5728630024F2F9 /* BMRootViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E94AC4BD1B5720030024F2F9 /* BMPushNotificationView */ = {
+			isa = PBXGroup;
+			children = (
+				E94AC4C01B57202D0024F2F9 /* BMPushNotificationView.h */,
+				E94AC4C11B57202D0024F2F9 /* BMPushNotificationView.m */,
+				E94AC4BE1B5720180024F2F9 /* BMPushNotificationView.xib */,
+			);
+			name = BMPushNotificationView;
+			sourceTree = "<group>";
+		};
+		E94AC4C91B572BB70024F2F9 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E94AC4C61B572A980024F2F9 /* UIView+Instantiation.h */,
+				E94AC4C71B572A980024F2F9 /* UIView+Instantiation.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E94AC4911B571F870024F2F9 /* BMPushNotificationViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E94AC4B51B571F870024F2F9 /* Build configuration list for PBXNativeTarget "BMPushNotificationViewExample" */;
+			buildPhases = (
+				E94AC48E1B571F870024F2F9 /* Sources */,
+				E94AC48F1B571F870024F2F9 /* Frameworks */,
+				E94AC4901B571F870024F2F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BMPushNotificationViewExample;
+			productName = BMPushNotificationViewExample;
+			productReference = E94AC4921B571F870024F2F9 /* BMPushNotificationViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E94AC4AA1B571F870024F2F9 /* BMPushNotificationViewExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E94AC4B81B571F870024F2F9 /* Build configuration list for PBXNativeTarget "BMPushNotificationViewExampleTests" */;
+			buildPhases = (
+				E94AC4A71B571F870024F2F9 /* Sources */,
+				E94AC4A81B571F870024F2F9 /* Frameworks */,
+				E94AC4A91B571F870024F2F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E94AC4AD1B571F870024F2F9 /* PBXTargetDependency */,
+			);
+			name = BMPushNotificationViewExampleTests;
+			productName = BMPushNotificationViewExampleTests;
+			productReference = E94AC4AB1B571F870024F2F9 /* BMPushNotificationViewExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E94AC48A1B571F870024F2F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = bookmarq;
+				TargetAttributes = {
+					E94AC4911B571F870024F2F9 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					E94AC4AA1B571F870024F2F9 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = E94AC4911B571F870024F2F9;
+					};
+				};
+			};
+			buildConfigurationList = E94AC48D1B571F870024F2F9 /* Build configuration list for PBXProject "BMPushNotificationViewExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E94AC4891B571F870024F2F9;
+			productRefGroup = E94AC4931B571F870024F2F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E94AC4911B571F870024F2F9 /* BMPushNotificationViewExample */,
+				E94AC4AA1B571F870024F2F9 /* BMPushNotificationViewExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E94AC4901B571F870024F2F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9885B991B7C14290030F0FC /* sample_icon.png in Resources */,
+				E94AC4BF1B5720180024F2F9 /* BMPushNotificationView.xib in Resources */,
+				E94AC4A11B571F870024F2F9 /* Main.storyboard in Resources */,
+				E94AC4A61B571F870024F2F9 /* LaunchScreen.xib in Resources */,
+				E94AC4A31B571F870024F2F9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E94AC4A91B571F870024F2F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E94AC48E1B571F870024F2F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94AC4C21B57202D0024F2F9 /* BMPushNotificationView.m in Sources */,
+				E94AC49B1B571F870024F2F9 /* BMAppDelegate.m in Sources */,
+				E94AC4C81B572A980024F2F9 /* UIView+Instantiation.m in Sources */,
+				E94AC4981B571F870024F2F9 /* main.m in Sources */,
+				E94AC4C51B5728630024F2F9 /* BMRootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E94AC4A71B571F870024F2F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94AC4B21B571F870024F2F9 /* BMPushNotificationViewExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E94AC4AD1B571F870024F2F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E94AC4911B571F870024F2F9 /* BMPushNotificationViewExample */;
+			targetProxy = E94AC4AC1B571F870024F2F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E94AC49F1B571F870024F2F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E94AC4A01B571F870024F2F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E94AC4A41B571F870024F2F9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E94AC4A51B571F870024F2F9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E94AC4B31B571F870024F2F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E94AC4B41B571F870024F2F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E94AC4B61B571F870024F2F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BMPushNotificationViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.bookmarq.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E94AC4B71B571F870024F2F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BMPushNotificationViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.bookmarq.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E94AC4B91B571F870024F2F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BMPushNotificationViewExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.bookmarq.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BMPushNotificationViewExample.app/BMPushNotificationViewExample";
+			};
+			name = Debug;
+		};
+		E94AC4BA1B571F870024F2F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = "";
+				INFOPLIST_FILE = BMPushNotificationViewExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.bookmarq.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BMPushNotificationViewExample.app/BMPushNotificationViewExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E94AC48D1B571F870024F2F9 /* Build configuration list for PBXProject "BMPushNotificationViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E94AC4B31B571F870024F2F9 /* Debug */,
+				E94AC4B41B571F870024F2F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E94AC4B51B571F870024F2F9 /* Build configuration list for PBXNativeTarget "BMPushNotificationViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E94AC4B61B571F870024F2F9 /* Debug */,
+				E94AC4B71B571F870024F2F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E94AC4B81B571F870024F2F9 /* Build configuration list for PBXNativeTarget "BMPushNotificationViewExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E94AC4B91B571F870024F2F9 /* Debug */,
+				E94AC4BA1B571F870024F2F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E94AC48A1B571F870024F2F9 /* Project object */;
+}
